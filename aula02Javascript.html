@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let tabuada = prompt("digite os valores separados por (;)");
+        tabuada = tabuada.split(";");
+
+        tabuada.forEach(element => {
+            if(element > 0 && element <= 10){
+                for (let index = 1; index <= 10; index++) {
+                    console.log(element + " x " + index + " = " + element * index);
+                }
+            }
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
